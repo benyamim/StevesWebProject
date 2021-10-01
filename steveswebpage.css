@@ -1,0 +1,57 @@
+header {
+
+    background:purple;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    height: 100px; 
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+img {
+    
+    background: lightblue;
+    text-align:center;
+    margin: 0 auto;
+    padding:100px;
+     
+    
+  
+}
+
+body {
+    background:lightblue;
+    text-align: center;
+}
+ 
+.parent {
+    
+    text-align:center;
+
+}
+.parent > ul {
+    display: inline-block;
+  }
+
+.parent2 {
+
+    text-align:center;
+}
+
+.parent2 > ol {
+
+    display: inline-block;
+}  
+
+li {
+    text-align:left; 
+}
+
+footer{
+
+    background: rgb(255, 0, 64) ;
+    color:black; 
+}
